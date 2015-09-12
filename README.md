@@ -13,7 +13,7 @@ Supported file types include: PDF and Microsoft Word documents, Excel spreadshee
 - **Real-time annotation mode.** Multiple users can annotate the same document simultaneously, each being able to see and reply to others’ comments in real time.
 - **Native Microsoft Word & PDF annotations.** PDF and Microsoft Word documents annotated using GroupDocs.Annotation for .NET on your website can be saved along with added annotations for further offline review and editing.
 
-For more details on GroupDocs.Annotation for .NET, please visit its homepage at:
+For more details on GroupDocs.Annotation for .NET, please visit its homepage at:   
 [http://groupdocs.com/dot-net/document-annotation-library](http://groupdocs.com/dot-net/document-annotation-library) 
 
 ___
