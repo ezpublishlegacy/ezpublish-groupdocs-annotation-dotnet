@@ -6,7 +6,7 @@ The library provides you with a web-based UI that can be embedded to a web page 
 
 Supported file types include: PDF and Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, CAD drawings, raster images (TIFF, JPEG, PNG, BMP, GIF) and many more.
 
- ###Features at a Glance
+###Features at a Glance
 
 - **Cross-platform compatibility.** End users can annotate documents and images using any standard web-browser, including IE8+, Chrome, Safari5+ and Mozilla FireFox. There is no need to install any software or browser plugin.
 - **Comprehensive set of annotation tools:** rectangle, polyline, sticky notes, arrow, watermarks, redaction, text underline/strikethrough, etc.
