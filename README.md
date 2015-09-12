@@ -1,21 +1,43 @@
-# Groupdocs Annotation for .NET
-============================
+##GroupDocs.Annotation for .NET – ezPublish Add-on
 
-GroupDocs Annotation for .NET plugin for ezPublish
+GroupDocs.Annotation for .NET is a lightweight library that enables end users to annotate common document and image types online using only a web-browser. With this add-on, ezPublish developers and site owners can easily integrate GroupDocs.Annotation for .NET into their websites.
 
-With GroupDocs Annotation for .NET plugin for ezPublish you can easily view on [annotate on PDF's](http://groupdocs.com/apps/Annotation), Word documents, Excel documents, Powerpoint documents and more with the GroupDocs Annotation tool, directly from within your ezPublish website.
+The library provides you with a web-based UI that can be embedded to a web page as an annotation widget. Using the widget, end users can upload images and documents for online review and annotation, all directly on your ezPublish website.
 
-###Plugin Manual Installation Instructions:
-1. "groupdocsAnnotationNet" module contain "design, modules, setting", so unzip it into "extentions" directory, so parent directory is "groupdocsAnnotation"
-2. Open file: "site/settings/override/site.ini.append.php" and add "ActiveExtensions[]=groupdocsAnnotationNet" under "[ExtensionSettings]"
-3. Go to Admin > Setup > Extentions and checkbox where "groupdocsAnnotation" must be ticked
-4. Then go to - Setup > Extentions and press "Regenerate autoloaded arrays for extentions" in the bottom
-5. Grant permissions in admin go to - User Accounts > Roles and policies > Anonymous => Edit Role and if "groupdocsAnnotationNet" isn't available in the list press - New Policy > choose Module: groupdocsAnnotationNet > Grant access to all functions > Save
-6. Go to Setup and press "Clear all caches"
+Supported file types include: PDF and Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, CAD drawings, raster images (TIFF, JPEG, PNG, BMP, GIF) and many more.
 
+ ###Features at a Glance
 
-###[Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs](http://groupdocs.com)
-* [Annotate PDF, Word, Excel, Powerpoint and Images with GroupDocs.Annotation for .NET Library](http://groupdocs.com/dot-net/document-annotation-library)
-* [See GroupDocs Annotation for .NET plugin source for ez Publish CMS](https://github.com/groupdocs/ezpublish-groupdocs-annotation-dotnet-source)
+- **Cross-platform compatibility.** End users can annotate documents and images using any standard web-browser, including IE8+, Chrome, Safari5+ and Mozilla FireFox. There is no need to install any software or browser plugin.
+- **Comprehensive set of annotation tools:** rectangle, polyline, sticky notes, arrow, watermarks, redaction, text underline/strikethrough, etc.
+- **Real-time annotation mode.** Multiple users can annotate the same document simultaneously, each being able to see and reply to others’ comments in real time.
+- **Native Microsoft Word & PDF annotations.** PDF and Microsoft Word documents annotated using GroupDocs.Annotation for .NET on your website can be saved along with added annotations for further offline review and editing.
 
-###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
+For more details on GroupDocs.Annotation for .NET, please visit its homepage at:
+[http://groupdocs.com/dot-net/document-annotation-library](http://groupdocs.com/dot-net/document-annotation-library) 
+
+___
+
+###Add-on Installation:
+
+Please note that this add-on integrates the downloadable .NET version of GroupDocs.Annotation, which can be deployed on-premises. We also offer a [Java library]( https://github.com/groupdocs/ezpublish-groupdocs-annotation-java) for on-premises deployment and a [cloud-based integration](https://github.com/groupdocs/ez-groupdocs-annotation).
+
+Also, please be aware that GroupDocs.Annotation for .NET is a commercial library, but you can test it with a free evaluation.
+
+1. Unzip the **groupdocsAnnotationNet** package to the **groupdocsAnnotation** folder within the **extensions** directory of your ezPublish site. 
+2. Open the **site/settings/override/site.ini.append.php** file and add **ActiveExtensions[]=groupdocsAnnotationNet** under **[ExtensionSettings]**.
+3. Go to: **Admin** > **Setup** > **Extensions** and check the **groupdocsAnnotation** checkbox.
+4. Go to: **Setup** > **Extensions** and press the **Regenerate auto loaded arrays for extensions** in the bottom of the page.
+5. Go to: **User Accounts** > **Roles and policies** > **Anonymous** then click **Edit Role**.
+6. If **groupdocsAnnotationNet** is not listed there, press **New Policy** > choose **Module: groupdocsAnnotationNet** > **Grant access to all functions** > **Save**.
+6. Go to **Setup** and press **Clear all caches**.
+
+___
+
+###Useful Links
+
+GroupDocs.Annotation for .NET Library - Product Home:   
+[http://groupdocs.com/dot-net/document-annotation-library](http://groupdocs.com/dot-net/document-annotation-library) 
+
+GroupDocs.Annotation for .NET on the ezPublish Marketplace:   
+[http://projects.ez.no/groupdocs_annotation_for_dot_net](http://projects.ez.no/groupdocs_annotation_for_dot_net)
